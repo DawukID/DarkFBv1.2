@@ -1,6 +1,6 @@
-#Coded by:Sanz
-#Youtube:SANZ SOEKAMTI
-#GitHub:https://github.com/B4N954N2-ID
+#Coded by:Dawuk
+#Facebook:Satria ID
+#GitHub:https://github.com/DawukID
 #Note:Jangan di ubah ya nanti bisa error
 import os
 import sys

